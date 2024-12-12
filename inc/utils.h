@@ -179,6 +179,21 @@
             message, __func__, __FILE__, __LINE__)
 
 /** ============================================================================
+    @def       LOG_DEBUG(message)
+    @brief     Logs a debug message.
+
+    @details   This macro prints a debug message to `stdout`, including 
+               the function name, file name, and line number where the 
+               log is invoked. It is useful for providing detailed information
+               during development and debugging of the program.
+
+    @param     message  The debug message string to log.
+============================================================================= **/
+#define LOG_DEBUG(message)                                   \
+        fprintf(stdout, "DEBUG: %s at: %s() (%s:%d)\n",      \
+            message, __func__, __FILE__, __LINE__)
+
+/** ============================================================================
     @def       ALIGN_UP(x, align)
     @brief     Aligns a value `x` upwards to the nearest multiple of `align`.
 
