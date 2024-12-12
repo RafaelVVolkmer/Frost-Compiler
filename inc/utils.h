@@ -68,13 +68,13 @@
                  appropriately.
 ============================================================================ **/
 #if defined(__x86_64__) || defined(_M_X64)
-    #define ARCH_ALIGNMENT (uint8_t)(16U)           /**< x86_64 typically benefits from 16-byte alignment */
+    #define ARCH_ALIGNMENT 16U                      /**< x86_64 typically benefits from 16-byte alignment */
 #elif defined(__aarch64__) || defined(_M_ARM64)
-    #define ARCH_ALIGNMENT (uint8_t)(16U)           /**< ARM64 also benefits from 16-byte alignment */
+    #define ARCH_ALIGNMENT 16U                      /**< ARM64 also benefits from 16-byte alignment */
 #elif defined(__i386__) || defined(_M_IX86)
-    #define ARCH_ALIGNMENT (uint8_t)(8U)            /**< 32-bit x86 uses 8-byte alignment */
+    #define ARCH_ALIGNMENT 8U                       /**< 32-bit x86 uses 8-byte alignment */
 #elif defined(__arm__) || defined(_M_ARM)
-    #define ARCH_ALIGNMENT (uint8_t)(8U)            /**< 32-bit ARM uses 8-byte alignment */
+    #define ARCH_ALIGNMENT 8U                       /**< 32-bit ARM uses 8-byte alignment */
 #else
     #define ARCH_ALIGNMENT ALIGNMENT                /**< Default alignment for other architectures */
 #endif
