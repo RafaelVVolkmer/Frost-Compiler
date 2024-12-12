@@ -175,7 +175,7 @@
     @param     message  The error message string to log.
 ============================================================================ **/
 #define LOG_ERROR(message)                                  \
-        fprintf(stdout, "DEBUG: %s at: %s() (%s:%d)\n",     \
+        fprintf(stdout, "ERROR: %s at: %s() (%s:%d)\n",     \
             message, __func__, __FILE__, __LINE__)
 
 /** ============================================================================
