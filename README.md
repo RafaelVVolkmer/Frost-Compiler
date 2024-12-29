@@ -69,5 +69,5 @@ PROJECT [WIP]
 [issues-url]: https://github.com/RafaelVVolkmer/Frost-Compiler/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rafaelvvolkmer
-[license-shield]: https://img.shields.io/github/license/RafaelVVolkmer/libmemalloc.svg?style=flat-square
-[license-url]: https://github.com/RafaelVVolkmer/libmemalloc/blob/main/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/RafaelVVolkmer/Frost-Compiler.svg?style=flat-square
+[license-url]: https://github.com/RafaelVVolkmer/Frost-Compiler/blob/main/LICENSE.txt
